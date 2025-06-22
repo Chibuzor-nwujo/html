@@ -7,7 +7,7 @@
         <!--This is a Registration Form-->
         <h2>This contact form collects sensitive information</h2><br>
 
-        <form action="https://formsubmit.co/nuzlahkale@gmail.com" method="post" target="_blank">
+        <form action="https://formsubmit.co/nuzlahkale@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
             <label for="name">Full Name<span class="required-star">*:</span></label>
             <input type="text" id="name" name="name" placeholder="YOUR FULL NAME" required><br><br>
 
@@ -40,7 +40,7 @@
             <label for="name">Ronaldo otonton Wasiu</label><br><br>
 
             <h3>This is what a dropdown look like.</h3>
-            <label for="rating">Rate your level of Integrity.(1 = least satisfied, 10 = extremely satisfied)</label><br>
+            <label for="rating">Rate your level of Integrity.(1 = least satisfied, 10 = extremely satisfied)</label><br><br>
             <select name="rating" id="rating" required>
                 <option value="" disabled selected>Choose your rating</option>
                 <option value="1">1</option>
@@ -56,8 +56,7 @@
             </select><br><br>
 
             <label for="apologies">How can we Apologize?</label><br>
-            <textarea id="apologies" name="apologies" rows="6" placeholder="Please share your thoughts on how to apologize to your serious girlfriend">
-            </textarea><br>
+            <textarea id="apologies" name="apologies" rows="6" placeholder="Please share your thoughts on how to apologize to your serious girlfriend"></textarea><br>
             <input type="submit" value="submit">
 
         </form>
