@@ -17,7 +17,48 @@
             <label for="phone">Phone Number<span class="required-star">*:</span></label>
             <input type="tel" id="phone" name="phone" placeholder="+2348042760425" required><br><br>
 
-            <h3><em>Select only one option from the below questions</em></h3>
+            <h3>This is a what a radio button looks like</h3>
+            <label>Which of the following is not a land animal</label><br>
+            <input type="radio" id="cat" name="animal" value="cat">
+            <label for="animal">Cat</label><br>
+            <input type="radio" id="beardedeagle" name="animal" value="beardedeagle">
+            <label for="female">Beardedeagle<span class="required-star">*</span></label><br>
+            <input type="radio" id="hippopotamus" name="animal" value="hippopotamus">
+            <label for="other">Hippopotamus</label><br>
+            <input type="radio" id="blackmamba" name="animal" value="blackmamba">
+            <label for="other">Blackmamba</label>
+
+            <h3><em>Select only three option from the below questions</em></h3>
+            <label>Who do you think the GOAT of footbsll is?(you can choose more than one):</label><br>
+            <input type="checkbox" id="name" name="interests[]" value="name">
+            <label for="name">Lionel Messi Chukwuka</label><br>
+            <input type="checkbox" id="name" name="interests[]" value="name">
+            <label for="name">holland Crespo Oriakwu</label><br>
+            <input type="checkbox" id="name" name="interests[]" value="name">
+            <label for="name">Declan Rice Stew</label><br>
+            <input type="checkbox" id="name" name="interests[]" value="name">
+            <label for="name">Ronaldo otonton Wasiu</label><br><br>
+
+            <h3>This is what a dropdown look like.</h3>
+            <label for="rating">Rate your level of Integrity.(1 = least satisfied, 10 = extremely satisfied)</label><br>
+            <select name="rating" id="rating" required>
+                <option value="" disabled selected>Choose your rating</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br><br>
+
+            <label for="apologies">How can we Apologize?</label><br>
+            <textarea id="apologies" name="apologies" rows="6" placeholder="Please share your thoughts on how to apologize to your serious girlfriend">
+            </textarea><br>
+            <input type="submit" value="submit">
 
         </form>
     </body>
