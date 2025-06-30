@@ -2,35 +2,43 @@ body{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     padding: auto;
+    border-radius: 30px;
 }
 
 .container{
     position: relative;
-    margin: right 12px;
-    
+    margin: right 10px; 
 }
 
 .text {
     background-color:rgb(211, 176, 150, 0.8);
     font: optional;
-    padding: 15px 15px 15px 15px;
-    
+    padding: 15px;
+   
 }
 
-.content,{
-
-
-
+article{
+    border-color: blue;
 } 
 
 h1{
     color: aqua;
 }
-.textarea-container{
-    color: black;
+.textarea {
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    box-sizing: border-box;
     padding:5px 3px;
+    font-size: 1.5em;
+ 
 }
 
+.button-container{
+    text-align: center;
+    padding-top: 30px;
+
+}
 .button{
     transition-duration:0.5s;
     background-color: rgb(131, 129, 0);
