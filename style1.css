@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding: auto;
+}
+
+.container{
+    position: relative;
+    margin: right 12px;
+    
+}
+
+.text {
+    background-color:rgb(211, 176, 150, 0.8);
+    font: optional;
+    padding: 15px 15px 15px 15px;
+    
+}
+
+.content,{
+
+
+
+} 
+
+h1{
+    color: aqua;
+}
+.textarea-container{
+    color: black;
+    padding:5px 3px;
+}
+
+.button{
+    transition-duration:0.5s;
+    background-color: rgb(131, 129, 0);
+    border: 5px;
+    border-radius:8px;
+    color: rgb(0, 0, 0);
+    display:inline-block;
+    font-size:16px;
+    margin: 4px 2px;
+
+}
+
+button:hover{
+    background-color: rgb(255, 230, 0);
+
+}
