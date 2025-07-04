@@ -1,0 +1,65 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:rgba(228, 134, 56, 0.8);
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.navi-bar {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.hero {
+    display: flex;
+    height: 60vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(248, 249, 250),rgba(228, 134, 56, 0.8));
+    color: rgb(17, 14, 14);
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin:0 20px 20px 20px;
+    font-weight: 200;
+}
+
+.hero p {
+    margin:15px 10px;
+    font-size: 1.3em;
+
+}
+
+.hero .cta-btn {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+    color:aliceblue;
+    background: rgba(45, 21, 1, 0.4);
+}
+
+.hero .cta-btn:hover {
+    background-color:rgba(255, 119, 0, 0.829);
+}
